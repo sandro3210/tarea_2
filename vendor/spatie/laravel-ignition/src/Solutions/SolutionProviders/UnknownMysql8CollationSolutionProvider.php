@@ -23,7 +23,7 @@ class UnknownMysql8CollationSolutionProvider implements HasSolutionsForThrowable
 
         return str_contains(
             $throwable->getMessage(),
-            'Unknown collation: \'utf8mb4_0900_ai_ci\''
+            'Unknown collation: \'utf8mb4_general_ci\''
         );
     }
 
